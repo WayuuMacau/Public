@@ -1,0 +1,13 @@
+numpy==1.26.4
+pandas==1.5.2
+scikit-learn==1.5.0
+jax==0.5.3
+jaxlib==0.5.3
+numpyro==0.15.0
+joblib==1.4.2
+threadpoolctl==3.5.0
+python-dateutil==2.9.0.post0
+pytz==2024.1
+tzdata==2024.1
+pmdarima==2.0.4
+arch==7.0.0 
