@@ -3,7 +3,7 @@ from sklearn.naive_bayes import BernoulliNB
 from pandas import DataFrame
 
 # Load the CSV file into a DataFrame
-Data = pd.read_csv('Nasdaq.csv')
+Data = pd.read_csv('int_nasdaq.csv')
 df = DataFrame(Data)
 
 # Exclude the first (date) column and the last (dependent) column, except for the last row
@@ -48,3 +48,4 @@ if data:
 with open(output_file, 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(data)
+
