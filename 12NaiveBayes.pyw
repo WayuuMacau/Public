@@ -1,3 +1,5 @@
+# pandas=2.3.3
+# scikit-learn=1.2.2
 import pandas as pd
 from sklearn.naive_bayes import GaussianNB
 from pandas import DataFrame
@@ -48,4 +50,5 @@ if data:
 with open(output_file, 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(data)
+
 
